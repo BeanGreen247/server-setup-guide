@@ -418,6 +418,14 @@ runs glances in web mode
 
 this will run glances in server mode
 
+the following will enable glances to autostart
+```
+sudo systemctl enable glances
+```
+.bashrc at the end
+```
+glances -w &!
+```
 on your machine 
 
 go to your browser and type in url as follows
