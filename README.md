@@ -422,9 +422,11 @@ the following will enable glances to autostart
 ```
 sudo systemctl enable glances
 ```
-.bashrc at the end
+sudo nano /etc/rc.local
 ```
+#!/bin/bash
 glances -w &!
+exit 0
 ```
 on your machine 
 
