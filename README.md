@@ -405,7 +405,7 @@ You can also use filezilla to access your ftp server.
 ## Bonus Final step monitoring our server using glances
 
 
-on the server 
+### on the server 
 ```
 sudo apt install glances
 ```
@@ -428,7 +428,7 @@ sudo nano /etc/rc.local
 glances -w &!
 exit 0
 ```
-on your machine 
+### on your machine 
 
 go to your browser and type in url as follows
 ```
